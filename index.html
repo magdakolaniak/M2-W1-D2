@@ -1,0 +1,363 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <title>Music page</title>
+    <style>
+        body {
+            background: rgb(110, 123, 174);
+
+            color: rgb(0, 0, 0);
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            background-color: rgb(13, 13, 21);
+            color: whitesmoke;
+        }
+
+        .album-container {
+            margin-top: 10px;
+            ;
+
+        }
+
+        .album-container img {
+            width: 200px;
+            height: 200px;
+
+
+        }
+
+        .album-cover {}
+
+        img:hover {
+            margin-right: 10px;
+            margin-top: 10px;
+        }
+
+        .album-title {
+            color: rgb(24, 15, 14);
+            margin-top: 10px;
+
+        }
+
+        .artist {
+            display: block;
+        }
+
+        .genre {
+            display: block;
+
+
+        }
+
+        .prereview:hover p {
+            display: block;
+        }
+
+        /* .check {
+        font-weight: bold;
+        border: 1px solid black;
+    } */
+        .prereview p {
+            display: none;
+            text-align: left;
+            font-style: italic;
+            background-color: transparent;
+            font-weight: normal;
+
+        }
+
+        .review-style {
+            /* font-weight: lighter; */
+
+            text-align: center;
+
+        }
+
+        h6 {
+
+            margin-top: 10px;
+            /* margin-left: 20px; */
+            display: inline-block;
+            border: solid rgb(21, 6, 46) 2px;
+            border-radius: 5px;
+
+        }
+
+        hr {
+            margin-left: 5px;
+            margin-right: 5px;
+            border: solid rgb(9, 4, 40) 2px;
+            border-radius: 3px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#albums">Albums <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#reviews">Reviews</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Top lists</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="albums">
+        <div class="container">
+            <div class="row py-5">
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="album-container">
+                        <img src="images/florence.jpg" class="img-fluid shadow p-3 rounded ">
+                        <h4 class="album-title"> First album</h4>
+                        <span class="artist"> Artsit name</span>
+                        <span class="genre"> The genre</span>
+                        <span class="prereview">
+                            <h6 class="btn btn-secondary btn-sm">Check for more </h6><br><br>
+                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi eos, doloribus quam ab
+                                repellendus deleniti itaque excepturi aliquam iusto id veritatis voluptatibus,
+                                praesentium nobis, consectetur quia accusantium eaque inventore sunt?</p>
+                        </span></span>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="album-container">
+                        <img src="images/leon.jpg" class="img-fluid shadow p-3 rounded">
+                        <h4 class="album-title"> First album</h4>
+                        <span class="artist"> Artsit name</span>
+                        <span class="genre"> The genre</span>
+                        <span class="prereview">
+                            <h6 class="btn btn-secondary btn-sm">Check for more </h6><br><br>
+                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi eos, doloribus quam ab
+                                repellendus deleniti itaque excepturi aliquam iusto id veritatis voluptatibus,
+                                praesentium nobis, consectetur quia accusantium eaque inventore sunt?</p>
+                        </span>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="album-container">
+
+                        <img src="images/leon2.jpg" class="img-fluid shadow p-3 rounded">
+                        <h4 class="album-title"> First album</h4>
+                        <span class="artist"> Artsit name</span>
+                        <span class="genre"> The genre</span>
+                        <span class="prereview">
+                            <h6 class="btn btn-secondary btn-sm">Check for more </h6><br><br>
+                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi eos, doloribus quam ab
+                                repellendus deleniti itaque excepturi aliquam iusto id veritatis voluptatibus,
+                                praesentium nobis, consectetur quia accusantium eaque inventore sunt?</p>
+                        </span>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="album-container">
+
+                        <img src="images/lungs.jpg" class="img-fluid shadow p-3 rounded">
+                        <h4 class="album-title"> First album</h4>
+                        <span class="artist"> Artsit name</span>
+                        <span class="genre"> The genre</span>
+                        <span class="prereview">
+                            <h6 class="btn btn-secondary btn-sm">Check for more </h6><br><br>
+                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi eos, doloribus quam ab
+                                repellendus deleniti itaque excepturi aliquam iusto id veritatis voluptatibus,
+                                praesentium nobis, consectetur quia accusantium eaque inventore sunt?</p>
+                        </span>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="album-container">
+                        <img src="images/MTV Unplugged.jpg" class="img-fluid shadow p-3 rounded">
+                        <h4 class="album-title"> First album</h4>
+                        <span class="artist"> Artsit name</span>
+                        <span class="genre"> The genre</span>
+                        <span class="prereview">
+                            <h6 class="btn btn-secondary btn-sm">Check for more </h6><br><br>
+                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi eos, doloribus quam ab
+                                repellendus deleniti itaque excepturi aliquam iusto id veritatis voluptatibus,
+                                praesentium nobis, consectetur quia accusantium eaque inventore sunt?</p>
+                        </span>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="album-container">
+                        <img src="images/kings.jpg" class="img-fluid shadow p-3 rounded">
+                        <h4 class="album-title"> First album</h4>
+                        <span class="artist"> Artsit name</span>
+                        <span class="genre"> The genre</span>
+                        <span class="prereview">
+                            <h6 class="btn btn-secondary btn-sm">Check for more </h6><br><br>
+                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi eos, doloribus quam ab
+                                repellendus deleniti itaque excepturi aliquam iusto id veritatis voluptatibus,
+                                praesentium nobis, consectetur quia accusantium eaque inventore sunt?</p>
+                        </span>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="album-container">
+                        <img src="images/bild.jpg" class="img-fluid shadow p-3 rounded">
+                        <h4 class="album-title"> First album</h4>
+                        <span class="artist"> Artsit name</span>
+                        <span class="genre"> The genre</span>
+                        <span class="prereview">
+                            <h6 class="btn btn-secondary btn-sm">Check for more </h6><br><br>
+                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi eos, doloribus quam ab
+                                repellendus deleniti itaque excepturi aliquam iusto id veritatis voluptatibus,
+                                praesentium nobis, consectetur quia accusantium eaque inventore sunt?</p>
+                        </span>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="album-container">
+                        <img src="images/blue.png" class="img-fluid shadow p-3 rounded">
+                        <h4 class="album-title"> First album</h4>
+                        <span class="artist"> Artsit name</span>
+                        <span class="genre"> The genre</span>
+                        <span class="prereview">
+                            <h6 class="btn btn-secondary btn-sm">Check for more </h6><br><br>
+                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi eos, doloribus quam ab
+                                repellendus deleniti itaque excepturi aliquam iusto id veritatis voluptatibus,
+                                praesentium nobis, consectetur quia accusantium eaque inventore sunt?</p>
+                        </span>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="album-container">
+                        <img src="images/conv.jpg" class="img-fluid shadow p-3 rounded">
+                        <h4 class="album-title"> First album</h4>
+                        <span class="artist"> Artsit name</span>
+                        <span class="genre"> The genre</span>
+                        <span class="prereview">
+                            <h6 class="btn btn-secondary btn-sm">Check for more </h6><br><br>
+                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi eos, doloribus quam ab
+                                repellendus deleniti itaque excepturi aliquam iusto id veritatis voluptatibus,
+                                praesentium nobis, consectetur quia accusantium eaque inventore sunt?</p>
+                        </span>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="album-container">
+                        <img src="images/Mettallica - Death Magnetic.jpg" class="img-fluid shadow p-3 rounded">
+                        <h4 class="album-title"> First album</h4>
+                        <span class="artist"> Artsit name</span>
+                        <span class="genre"> The genre</span>
+                        <span class="prereview">
+                            <h6 class="btn btn-secondary btn-sm">Check for more </h6><br><br>
+                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi eos, doloribus quam ab
+                                repellendus deleniti itaque excepturi aliquam iusto id veritatis voluptatibus,
+                                praesentium nobis, consectetur quia accusantium eaque inventore sunt?</p>
+                        </span>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="album-container">
+                        <img src="images/kort1.jpg" class="img-fluid shadow p-3 rounded">
+                        <h4 class="album-title"> First album</h4>
+                        <span class="artist"> Artsit name</span>
+                        <span class="genre"> The genre</span>
+                        <span class="prereview">
+                            <h6 class="btn btn-secondary btn-sm">Check for more </h6><br><br>
+                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi eos, doloribus quam ab
+                                repellendus deleniti itaque excepturi aliquam iusto id veritatis voluptatibus,
+                                praesentium nobis, consectetur quia accusantium eaque inventore sunt?</p>
+                        </span>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="album-container">
+                        <img src="images/kort2.jpg" class="img-fluid shadow p-3 rounded">
+                        <h4 class="album-title"> First album</h4>
+                        <span class="artist"> Artsit name</span>
+                        <span class="genre"> The genre</span>
+                        <span class="prereview">
+                            <h6 class="btn btn-secondary btn-sm">Check for more </h6><br><br>
+                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi eos, doloribus quam ab
+                                repellendus deleniti itaque excepturi aliquam iusto id veritatis voluptatibus,
+                                praesentium nobis, consectetur quia accusantium eaque inventore sunt?</p>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <section id="reviews">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6 col-md-4 ">
+                        <img src="images/florence.jpg" class="img-fluid shadow p-3 rounded">
+                    </div>
+                    <div class="col-6 col-md-8">
+                        <div class="shadow p-3 rounded review-style d-flex flex-column justify-content-center h-100">
+                            <span> Growing up, Welch was met with stern eyes when she was caught singing her favorite
+                                hymns with a bit too much verve. Her unbridled talent is the type of thing producers of
+                                TV singing contests fantasize about. It's soulful. It's instant. It's blaring. On
+                                "American Idol", contestants like Welch are invariably deemed "quirky" and doomed to
+                                runner-up status. And though Welch is a more convincing Artist than even the best "Idol"
+                                has to offer, make no mistake that her voice-first delivery is perfectly tailored for a
+                                generation who grew up judging singers as much as they listened to them. Even the
+                                hopelessly hip crowd that showed up to see Welch at Vice's Creators Project event last
+                                month saved one of their biggest ovations for the moment when she held out one piercing
+                                note for an exaggerated period of time-- a primal sign of skill that banks on nothing
+                                less than sheer audacity..
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 ">
+                        <img src="images/florence.jpg" class="img-fluid shadow p-3 rounded">
+                    </div>
+                    
+                </div>
+                
+            </div>
+
+
+
+        </section>
+
+        <section id="reviews">
+
+        </section>
+        <!-- Optional JavaScript; choose one of the two! -->
+
+        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+            crossorigin="anonymous"></script>
+
+        <!-- Option 2: Separate Popper and Bootstrap JS -->
+        <!--
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
